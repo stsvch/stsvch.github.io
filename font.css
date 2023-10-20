@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Myriad';
+    src: url('fonts/MyriadProRegular.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('fonts/ofont.ru_GothamPro.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'GothamM';
+    src: url('fonts/ofont.ru_GothamProM.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('fonts/OpenSans.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'GB';
+    src: url('GothamBookFont.otf') format('truetype');
+}
