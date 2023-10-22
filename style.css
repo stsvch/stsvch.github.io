@@ -150,14 +150,21 @@ body
   background-size: cover;
 }
 
+  .header-menu-btn::before {
+      content: '';
+      position: absolute;
+      left: 0; 
+      bottom: 20px;
+      width: 0;
+      height: 5px;
+  }
+
   .scroll-down:hover:before {
-    top : -40%;
     content: "Scroll Down";
     color:white;
     font-family: 'OpenSans';
     font-size:11pt;
     letter-spacing: 0.1px;
-    text-align: center;
     color: white;
   }
 
