@@ -155,7 +155,7 @@ body
       position: absolute;
       left: 0; 
       bottom: 20px;
-      width: 0;
+      width: 100px;
       height: 5px;
   }
 
