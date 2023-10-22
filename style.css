@@ -136,14 +136,6 @@ body
   cursor: pointer;
 }
 
-.s-d{
-  color:white;
-  font-family: 'OpenSans';
-  font-size:13pt;
-  letter-spacing: 0.1px;
-  text-align: center;
-}
-
 .scroll{
   height: 105px;
   width: 100px;
@@ -157,6 +149,16 @@ body
   background: url("img/logo2/s.png") no-repeat;
   background-size: cover;
 }
+
+  .scroll-down:hover:before {
+    content: "Scroll Down";
+    color:white;
+    font-family: 'OpenSans';
+    font-size:13pt;
+    letter-spacing: 0.1px;
+    text-align: center;
+    color: white;
+  }
 
 .scroll-down:hover {
   opacity: 0.5;
