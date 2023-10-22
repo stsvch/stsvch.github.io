@@ -138,7 +138,7 @@ body
 
 .scroll{
   height: 105px;
-  width: 100px;
+  width: 150px;
   margin: auto;
   margin-top: 5%;
 }
@@ -155,13 +155,10 @@ body
       position: absolute;
       left: 0; 
       bottom: 20px;
-      width: 100px;
-      height: 5px;
   }
 
   .scroll-down:hover:before {
     content: "Scroll Down";
-    width:150px;
     color:white;
     font-family: 'OpenSans';
     font-size:11pt;
