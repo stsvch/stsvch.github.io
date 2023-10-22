@@ -136,30 +136,27 @@ body
   cursor: pointer;
 }
 
+.s-d{
+  color:white;
+  font-family: 'OpenSans';
+  font-size:13pt;
+  letter-spacing: 0.1px;
+  text-align: center;
+}
+
 .scroll{
   height: 105px;
-  width: 150px;
+  width: 100px;
   margin: auto;
   margin-top: 5%;
 }
 
 .scroll-down{
-  width: 80px;
-  height: 80px;
+  width: 75px;
+  height: 75px;
   background: url("img/logo2/s.png") no-repeat;
   background-size: cover;
 }
-
-  .scroll-down:hover:before {
-    content: "Scroll Down";
-    bottom: -40px;
-    position: absolute;
-    color:white;
-    font-family: 'OpenSans';
-    font-size:11pt;
-    letter-spacing: 0.1px;
-    color: white;
-  }
 
 .scroll-down:hover {
   opacity: 0.5;
@@ -173,6 +170,7 @@ body
 
 .agency-title{
   text-align: center;
+
 }
 
  .WE{ 
@@ -187,7 +185,7 @@ body
   content: "WE ARE AWESOME AGENCY";
   color: white;
   top: 45%;
-  left: 33%;
+  left: 39%;
   font-family:'GothamM';
   font-size:37px;
   position: absolute;
