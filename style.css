@@ -136,24 +136,34 @@ body
   cursor: pointer;
 }
 
-.s-d{
-  color:white;
-  font-family: 'OpenSans';
-  font-size:13pt;
-  letter-spacing: 0.1px;
-  text-align: center;
-}
+  .scroll-down::before {
+      content: '';
+      position: absolute;
+      bottom: 20px;
+      width: 0;
+      height: 10px;
+      color:white;
+      font-family: 'OpenSans';
+      font-size:12pt;
+      letter-spacing: 0.1px;
+  }
+  
+  .scroll-down:hover:before {
+    content: 'Scroll Down';
+    transition: 0.15s;
+    width: 100%;
+  }
 
 .scroll{
   height: 105px;
-  width: 100px;
+  width: 150px;
   margin: auto;
   margin-top: 5%;
 }
 
 .scroll-down{
-  width: 75px;
-  height: 75px;
+  width: 80px;
+  height: 80px;
   background: url("img/logo2/s.png") no-repeat;
   background-size: cover;
 }
@@ -337,7 +347,7 @@ body
   width: 50%;
   height: 450px; 
   float:left;
-  background: url(img/Rectangle6copy3.png) local;
+  background: url(img/Rectangle6copy3.png) local no-repeat;
   background-position:bottom;
 }
 
@@ -810,7 +820,7 @@ body
   height: 650px;
   width: 100%;
   float: left;
-  background: url(img/Meinkampf/Rectangle1copy.png) local;
+  background: url(img/Meinkampf/Rectangle1copy.png) local no-repeat;
 }
 
 .container4_4_3{
@@ -1221,6 +1231,6 @@ body
   position: relative;
   left: 49%;
   top: 40%;
-  background: url(img/Meinkampf/Layer77.png) local;
+  background: url(img/Meinkampf/Layer77.png) local no-repeat;
 }
 
