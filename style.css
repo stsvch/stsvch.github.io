@@ -139,7 +139,7 @@ body
   .scroll-down::before {
       content: '';
       position: absolute;
-      bottom: 50px;
+      bottom: -50px;
       width: 0;
       height: 10px;
       color:white;
