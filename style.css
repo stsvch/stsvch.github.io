@@ -150,16 +150,10 @@ body
   background-size: cover;
 }
 
-  .header-menu-btn::before {
-      content: '';
-    width:150%;
-      position: absolute;
-      left: 0; 
-      bottom: 20px;
-  }
-
   .scroll-down:hover:before {
     content: "Scroll Down";
+    bottom: -40px;
+    position: absolute;
     color:white;
     font-family: 'OpenSans';
     font-size:11pt;
