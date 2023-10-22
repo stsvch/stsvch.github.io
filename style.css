@@ -152,10 +152,11 @@ body
 
   .scroll-down:hover:before {
     width:100%;
+    top : -10%;
     content: "Scroll Down";
     color:white;
     font-family: 'OpenSans';
-    font-size:13pt;
+    font-size:12pt;
     letter-spacing: 0.1px;
     text-align: center;
     color: white;
