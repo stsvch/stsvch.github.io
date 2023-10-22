@@ -151,6 +151,7 @@ body
 }
 
   .scroll-down:hover:before {
+    width:100%;
     content: "Scroll Down";
     color:white;
     font-family: 'OpenSans';
